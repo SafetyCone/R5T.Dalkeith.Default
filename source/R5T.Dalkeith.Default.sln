@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Dalkeith.Default.Construction", "R5T.Dalkeith.Default.Construction\R5T.Dalkeith.Default.Construction.csproj", "{7C34CCE8-DD21-415D-9520-CA2DEDA1EC22}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Dalkeith.Default.Construction", "R5T.Dalkeith.Default.Construction\R5T.Dalkeith.Default.Construction.csproj", "{7C34CCE8-DD21-415D-9520-CA2DEDA1EC22}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Dalkeith.Default", "R5T.Dalkeith.Default\R5T.Dalkeith.Default.csproj", "{C58CA29D-5EFD-4731-BBF9-D88CF94BFCA4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Dalkeith.Default", "R5T.Dalkeith.Default\R5T.Dalkeith.Default.csproj", "{C58CA29D-5EFD-4731-BBF9-D88CF94BFCA4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Dalkeith.Default.Testing", "R5T.Dalkeith.Default.Testing\R5T.Dalkeith.Default.Testing.csproj", "{6790C1F2-7BF6-4800-940A-F3667D789BC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Dalkeith.Default.Testing", "R5T.Dalkeith.Default.Testing\R5T.Dalkeith.Default.Testing.csproj", "{6790C1F2-7BF6-4800-940A-F3667D789BC3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{C0CBD755-56A3-4A66-9F79-99ED2161ABEF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Dalkeith.Base", "..\..\R5T.Dalkeith.Base\source\R5T.Dalkeith.Base\R5T.Dalkeith.Base.csproj", "{D5C108B1-1EF9-4E99-9422-5F72F5050DAE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,9 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{7C34CCE8-DD21-415D-9520-CA2DEDA1EC22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -58,5 +59,26 @@ Global
 		{6790C1F2-7BF6-4800-940A-F3667D789BC3}.Release|x64.Build.0 = Release|Any CPU
 		{6790C1F2-7BF6-4800-940A-F3667D789BC3}.Release|x86.ActiveCfg = Release|Any CPU
 		{6790C1F2-7BF6-4800-940A-F3667D789BC3}.Release|x86.Build.0 = Release|Any CPU
+		{D5C108B1-1EF9-4E99-9422-5F72F5050DAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5C108B1-1EF9-4E99-9422-5F72F5050DAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5C108B1-1EF9-4E99-9422-5F72F5050DAE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D5C108B1-1EF9-4E99-9422-5F72F5050DAE}.Debug|x64.Build.0 = Debug|Any CPU
+		{D5C108B1-1EF9-4E99-9422-5F72F5050DAE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D5C108B1-1EF9-4E99-9422-5F72F5050DAE}.Debug|x86.Build.0 = Debug|Any CPU
+		{D5C108B1-1EF9-4E99-9422-5F72F5050DAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5C108B1-1EF9-4E99-9422-5F72F5050DAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5C108B1-1EF9-4E99-9422-5F72F5050DAE}.Release|x64.ActiveCfg = Release|Any CPU
+		{D5C108B1-1EF9-4E99-9422-5F72F5050DAE}.Release|x64.Build.0 = Release|Any CPU
+		{D5C108B1-1EF9-4E99-9422-5F72F5050DAE}.Release|x86.ActiveCfg = Release|Any CPU
+		{D5C108B1-1EF9-4E99-9422-5F72F5050DAE}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D5C108B1-1EF9-4E99-9422-5F72F5050DAE} = {C0CBD755-56A3-4A66-9F79-99ED2161ABEF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {518A5ECB-1C1F-4B51-A2DB-252CDBA54E2D}
 	EndGlobalSection
 EndGlobal
