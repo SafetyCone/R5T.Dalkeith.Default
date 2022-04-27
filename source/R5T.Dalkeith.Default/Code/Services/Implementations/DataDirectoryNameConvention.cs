@@ -1,9 +1,9 @@
-﻿using System;
+using System;using R5T.T0064;
 
 
 namespace R5T.Dalkeith.Default
-{
-    public class DataDirectoryNameConvention : IDataDirectoryNameConvention
+{[ServiceImplementationMarker]
+    public class DataDirectoryNameConvention : IDataDirectoryNameConvention,IServiceImplementation
     {
         public const string DataDirectoryName = "Data";
 
